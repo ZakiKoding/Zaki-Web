@@ -1,0 +1,359 @@
+/* Header Section*/
+body{ background-color: #008000;
+width: fit-content;
+align-items: center;}
+#HeaderNavigasi 
+{ display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin-left: 0%;
+
+  padding: 20px ;
+  background-color:#a52a2a;
+  border-radius: 20px;
+  border: 4px ridge black;}
+
+#Navigasi 
+{ display: flex;
+  gap: 10px;  
+  background-color: brown;
+  align-items: center;
+  font-size: 30px;}
+
+#Home {background-color: #008000;
+      padding: 5px;
+      border-radius: 10px;
+      text-decoration: none;
+      border: 2px solid black;
+      transition: 0.3s;}
+
+#Home:hover {opacity: 1;
+  background-color:white;}
+            
+
+#Call_Us {background-color: #008000;
+padding: 5px;
+border-radius: 10px;
+text-decoration: none;
+border: 2px solid black;
+transition: 0.3s;}
+
+#Call_Us:hover {opacity: 1;
+  background-color:white;}
+
+#Our_Package {background-color: #008000;
+padding: 5px;
+border-radius: 10px;
+text-decoration: none;
+border: 2px solid black;
+transition: 0.3s;}
+
+#Our_Package:hover {opacity: 1;
+  background-color:white;}
+
+  .Logo { width: 100px;
+  height: 80Px;}
+/* Flex : 1 ,Flex: 0 = untuk menentukan apakah item disesuaikan ke groupnya (0) atau ke kontainernya biar pas (1) */
+
+/*Header Title*/
+#Header_title 
+{   display: flex;
+    flex-direction: column;
+    align-items: center;}
+#Info_Store 
+{ color: black;
+  font-size: 50px;}
+#Quotes { color: gold;
+          font-size: 25px;}
+
+/* Main Section*/
+
+#Panggilan_Biase 
+{display: flex;
+  flex: 1;
+  margin-left: 1%;
+  width: 60%;
+  height: 100%;
+gap: 80px;
+margin-top: 5% ;
+border-radius:2px;
+box-sizing: border-box;}
+
+
+article > #Panggilan_Biase {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100% ;
+  flex-direction: column;
+  text-align: center;
+  flex-basis: 0%;
+  padding: 1%;
+  border-radius: 20px;
+  font-size: 30px;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: brown;
+  }
+
+#Article {background-color: rgb(0, 0, 0);}
+
+  h5 { display: flex;
+      gap: 100%;
+      box-sizing: border-box;
+      font-size: 15px;
+    border: 1px solid black;
+    background-color: gold;
+    padding-inline:0%;
+    justify-content: center;
+    align-items: center;
+    }
+#Form {display: flex;
+        flex-direction: column;
+        border : 2px solid black;
+        border-radius: 20px;
+        height: 30%;
+        width: 40%;
+        justify-content:start;
+        align-items: flex-start;
+        padding: 50px;
+        background-color: brown;
+        color: black;
+        box-sizing: border-box;}
+
+.Subtittle { display: inline-flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 1px;}
+
+.Title_Form {
+display: flex;
+color: black;
+font-size: 30px;}
+
+#kontak { display: flex;
+          padding-inline: 0px;
+          justify-content: flex-start ;
+          width: 200px;
+    color: black;
+        font-size: 30px;}
+#Marketting { 
+  font-size: 12px;
+  color: gold;
+  font-size: 18px;}
+  
+section {margin-top: 0px;}
+
+.Foto-SlideShow { display: flex;
+  width: 800px; 
+  height: 400px;
+      
+        align-items: center ;
+        justify-content: center;
+      animation: fading 10s infinite;}
+
+
+
+  /* Isi komen */
+  .KOMEN {  display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color:azure;
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 20px ;
+    width: 705px;
+    margin-left: 43px ;
+    margin-bottom: 2%;}
+
+  #isi_komen { 
+    display: flex;
+    justify-content: start;
+    color: black;
+    font-size: 15px;
+    justify-content: start;
+    margin-left: 4%;}
+    #Pelanggan 
+    { font-display: flex;  
+      color: black;
+                font-size: 23px;
+                align-items: center;}
+  
+    .Gambar_Nama {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 40px;
+    align-items: center;}
+
+    #gambar {width: 60px;
+    height: 50px;
+    margin-left: 4%;}
+
+  /*Information*/
+
+  #Information_list {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 10%; 
+    margin-top: 10%; 
+    margin-right: 0%;
+    border: 10px outset black; 
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+    box-sizing: border-box;}
+
+    #Paragraf
+    { display: flex;
+      color: black;
+    justify-content: center;
+    align-items: center;}
+    
+/* Our Package Section*/
+
+
+#Bali { background-color: white ;
+  color: black;
+  transition: 0.3s;}
+#Bali:hover { opacity: 1;
+              background-color: khaki;
+            color: red;}
+#Jepang { background-color: white ;
+  transition: 0.3s;}
+#Jepang:hover { opacity: 1;
+              background-color: red;}
+#Korea { background-color: white ;
+        color: black;
+  transition: 0.3s;}
+#Korea:hover { opacity: 1;
+              background-color: rgb(0, 0, 255);
+              color: aliceblue;}
+ #Thailand { background-color: white ;
+                  color: black;
+            transition: 0.3s;}
+#Thailand:hover { opacity: 1;
+                        background-color: rgba(255, 0, 0, 0.623);
+                        color: blue;}
+#Arab-Saudi { background-color: white ;
+                        color: black;
+                  transition: 0.3s;}
+#Arab-Saudi:hover { opacity: 1;
+                              background-color: rgb(1, 90, 1);
+                              color: aliceblue;}
+#Inggris { background-color: white ;
+         color: black;
+         transition: 0.3s;}
+ #Inggris:hover { opacity: 1;
+   background-color: rgba(245, 245, 245, 0.921);
+                                      color: rgb(240, 16, 16);}
+
+.Closing-Argument { display: flex;
+flex-direction: column;}
+
+/*Footer section*/
+
+#CS { background-color: #a52a2a;
+      color: black;
+      text-align: center;
+      margin-left: 40%;
+      margin-right: 40%;
+      padding: 1%;
+      font-size: 30px;
+      border-radius: 10px;
+      transition: 0.3s;}
+
+#CS:hover {opacity: 1;
+            background-color: white; }
+
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+  #Panggilan_Biase {margin-left:22%;}
+#Article {width: 300px;}
+
+  #Form {display: flex;
+    flex-direction: column;
+    border : 2px solid black;
+    border-radius: 20px;
+    height: 30%;
+    width: 60%;
+    justify-content:start;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: brown;
+    color: black;
+    box-sizing: border-box;}
+  
+    section {display: flex;
+  flex-direction: column;
+  align-items: center;}
+
+  body{ display: flex;
+        flex-direction: column;
+        align-items: center;}
+  #HeaderNavigasi { display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  #Gambar-1 {width: 300px; 
+    height: 200px; }
+  
+  #Gambar-2 { width: 300px; 
+    height: 200px;}
+
+  #Gambar-3 { width: 300px; 
+    height: 200px;}
+
+  #Gambar-4 {width: 300px; 
+    height: 200px;}
+  #Home {background-color: #008000;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    transition: 0.3s;}
+
+#Home:hover {opacity: 1;
+background-color:white;}
+          
+  
+  #Call_Us {background-color: #008000;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    transition: 0.3s;}
+    
+    #Call_Us:hover {opacity: 1;
+      background-color:white;}
+    
+    #Our_Package {background-color: #008000;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    transition: 0.3s;}
+    
+    #Our_Package:hover {opacity: 1;
+      background-color:white;}
+
+      #Header_title 
+      {   display: flex;
+          flex-direction: column;
+          align-items: center;}
+      #Info_Store 
+      { color: black;
+        font-size: 30px;}
+      #Quotes { color: gold;
+                font-size: 15px;}
+
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        function validateform() {
+           var Name = document.forms["Message-form"]["Name"].value;
+           var Email = document.forms["Message-form"]["Email"].value;
+           var Interest = document.forms["Message-form"]["Interest-Customer"].value;
+        } 
+        
+    
+    if (Name == " ")
+        {alert("Tolong isi nama dengan lengkap 🙏");
+        return false
+        }
+    </script> 
+</head>
+<body>
+    <header>
+        <section id="HeaderNavigasi">
+            <img class="Logo" src="Gambar/Logo Travel.png" alt="Ini Logo">
+            <nav id="Navigasi">
+                <div class="home">
+                <a id="Home" href="" style="color: black;">Home</a>
+                </div>
+                <a id="Our_Package" href="" style="color : black;">Our Package</a>
+                <a id="Call_Us" href="" style="color: black; transition-duration: 2ms;">Call Us</a>
+            </nav>
+        </header> 
+        </section>
+        <section id="Header_title">
+            <h1 style="font-size: 50px; color: white;"> BORCELLE </h1>
+        <h1 id="Info_Store">Trusted Travel Agent</h1>
+        <h3 id="Quotes">Serve you with <b>Real Adventure</b></h3>
+       </section>
+    </header>
+    <main>
+
+        </style>
+        <section id = "Panggilan_Biase">
+            <article style="background-color: #a52a2a;" id="Article">
+            <div class="Brosur"></div>
+                <img style="width: 800px; height: 400px;" class="Foto-SlideShow" src="https://www.halloriau.com/foto_berita/74traveling_alam.jpg" alt="gambar 1" id="Gambar-1" >
+                <img id="Gambar-2" style="width: 800px; height: 400px;"  class="Foto-SlideShow" src="https://www.gotravelaindonesia.com/wp-content/uploads/101-Tempat-Wisata-Populer-Di-Bali.jpg" alt="gambar 2">
+                <img id="Gambar-3" style="width: 800px; height: 400px;" class="Foto-SlideShow" src="https://www.megainsurance.co.id/po-content/uploads/wisata_di_korea_selatan.jpg" alt="gambar 3">
+                <img id="Gambar-" style="width: 800px; height: 400px;" class="Foto-SlideShow" src="https://www.wisataku.id/wp-content/uploads/2018/01/0-11.jpg" alt="gambar 4">
+                <h5>Menyenangkan dan Berkesan</h5>
+                <br>
+                <article style="background-color: gainsboro;" class="KOMEN">
+                <p class="comment" id="isi_komen"><i>"Liburan jadi menyenangkan bersama travel Borcelle"</i></p>
+                <div class="Gambar_Nama">
+                    <img id="gambar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiVWVOXJSiU5IxftWIfR-N9lehsKixlnEOQ4OOecOpw_JkfR_UgkL2HXGKrA6NlLuS&usqp=CAU.jpg" alt="Perempuan" >
+                <p class="comment" id="Pelanggan"><b>Florance Hughes</b></p>
+                </div>
+            </div>
+                </article>
+            </article>
+            <script>
+            var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("Foto-SlideShow");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000);
+}
+            </script>
+        <section name="Message-form" id="Form">
+            <h3 class="Subtittle" id="kontak">Contact Us</h3>
+            <h3 class="Subtittle" id="Marketting">Our team will inform you within 1x24 hours.</h3>
+            <br>
+            <br>
+            <form onsubmit="return validateform">
+            <label id="Nama" >Nama :</label>
+            <input name="Name" placeholder="First and last name" type="text" id="Nama">
+            <br>
+            <br>
+            <label class="Edukasi" id="Edukasi">Email : </label>
+            <input Name="Email" placeholder="xxxxx@gmail.com" type="text" class="Edukasi" id="Edukasi">
+            <br>
+            <label id="Interest Customer"> What are you Interested in?</label>
+            <select id="Interest-Customer" name="Interest-Customer">
+                <option value="Bali" selected>Bali</option>
+                <option value="Jepang">Jepang</option>
+                <option value="Korea">Korea</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Arab Saudi">Arab Saudi</option>
+                <option value="England">England</option>
+            </select>
+            <br>
+            <input style="width: 177px;" type="submit" class="submit" value="submit"></input>
+        </form>  
+        </section>
+        </section>
+        
+       
+    <br>
+    <article id="Information_list">
+        <p id="Paragraf" style="justify-content: flex-start;
+        text-align: justify; font-size: 15px;">Kami siap melayani anda dengan semaksimal mungkin, Kami akan memberikan pengalaman yang berkesan dan menyenangkan bagi para pelanggan kami. selain itu, Layanan yang diberikan sangat istimewa berupa: </p>
+    <ul style="display: flex; flex-direction: column;gap: 1px;" type="circle">
+        <li style="font-size: 13px;text-align: justify;"><b>Pemberian Baju Borcelle</b></li>
+        <li style="font-size: 13px;text-align: justify;"><b>Games yang diadakan untuk mendapatkan hadiah berupa handphone,Tablet, dsb</b></li>
+        <li style="font-size: 13px;text-align: justify;"><b>Para Pelanggan nantinya dimasukan ke dalam kelompok yang berbeda" (khusus untuk alone travelers)</b></li>
+    </ul>
+    </article>
+        <br>
+        <br>
+    <section>
+        <div style="height: 200px; width: 100%; background-color: brown;" id="Our_Package" >
+            <H6 style="margin-top: 70px; display: flex; font-size: 50px; justify-content: center; align-content: center; "> Our Package</H6>
+        </div>
+    </section>
+    <br>
+    <ul class="Page-1" type="Square" style="display: flex; list-style: none; gap: 60px; font-size: 40px; width: 200px; text-align: justify; margin-left: 50px;">
+        <li id="Bali" style="display: flex; box-sizing: border-box; width: 300px; flex-direction: column; text-align: center  ; border-radius: 5px; margin-right: 25px;">Bali <p style="font-size: 10px; width: 280px;text-align: justify"> Bali merupakan salah satu provinsi dari indonesia dan berada paling barat dari pulau sunda. Pulau Jawa dari sebelah timur dan Lombok dari sebelah barat, Provinsi bali termasuk pulau yang ada di bali dan beberapa pulau kecil lainnya,</p> </li>
+        <li id="Jepang" style="display: flex; box-sizing: border-box; width: 300px; flex-direction: column; text-align: center  ;border-radius: 5px; margin-right: 25px;">Jepang<p style="font-size: 10px; width: 280px;text-align: justify">Jepang adalah salah satu negara yang terkenal sebagai tujuan wisata populer di dunia. Negara ini memiliki berbagai daya tarik wisata yang menarik ribuan bahkan jutaan wisatawan setiap tahunnya</p> </li>
+        <li id="Korea" style="display: flex; box-sizing: border-box; width: 300px; flex-direction: column; text-align: center  ;border-radius: 5px; margin-right: 25px;">Korea<p style="font-size: 10px; width: 280px;text-align: justify">Korea Selatan menawarkan kombinasi menarik antara kebudayaan yang kaya, teknologi modern, makanan lezat, dan tempat-tempat wisata yang menarik.</p></li>
+    </ul>
+    <br>
+    <ul class="Page-2" type="Square" style="display: flex; list-style: none; gap: 60px; font-size: 40px; width: 200px; text-align: justify; margin-left: 50px;">
+        <li id="Thailand" style="display: flex; box-sizing: border-box; width: 300px; flex-direction: column; text-align: center  ; border-radius: 5px; margin-right: 25px;">Thailand<p style="font-size: 10px; width: 280px;text-align: justify">Satu negara yang paling populer sebagai tujuan wisata di Asia Tenggara. Negara ini menawarkan berbagai atraksi wisata yang menarik, mulai dari pantai-pantai tropis hingga kuil-kuil bersejarah, kota-kota yang ramai, serta budaya dan makanan yang kaya.</li>
+        <li id="Arab-Saudi" style="display: flex; box-sizing: border-box; width: 300px; flex-direction: column; text-align: center  ; border-radius: 5px; margin-right: 25px;">Arab Saudi<p style="font-size: 10px; width: 280px;text-align: justify">Negara yang terkenal dengan sejarah, budaya, dan warisan Islamnya. Meskipun Arab Saudi lebih dikenal sebagai destinasi religius bagi umat Muslim karena dua kota suci, Mekah dan Madinah, tetapi negara ini juga menawarkan beberapa tempat wisata menarik</p></li>
+        <li id="Inggris" style="display: flex; box-sizing: border-box; width: 300px; flex-direction: column; text-align: center  ; border-radius: 5px; margin-right: 25px;">Inggris<p style="font-size: 10px; width: 280px;text-align: justify">Negara dengan banyak tempat wisata menarik yang kaya akan sejarah, budaya, dan keindahan alam seperti London,Oxford, dan Cambridge</li>
+        </ul>
+    </div>
+</div>
+    </main> 
+    <br>
+    <br> 
+<footer>
+    <div class="Closing-Argument" ba>
+    <H6 style="border: 1px solid black; font-size: 40px; text-align: center; margin-top: 100px; background-color: #a52a2a; padding: 3%; width: 95%;">Lihat dulu yu halaman terakhir ini </H6> <p style="text-align: center;font-size: 20px;"> Jika ingin bertanya lebih lanjut terkait Travel kami, anda bisa menghubungi Customer Service yang ada di bawah ini</p>
+        <a id="CS" href="https://www.workstreams.ai/solutions/customer-support/?gad=1&gclid=CjwKCAjw_aemBhBLEiwAT98FMrGImg2DQqcGom6C2EWrDBDo4TQYBNM61D7N2h1XiHhQkh3ruluEOhoCfZgQAvD_BwE" target="_blank" style="text-decoration: none;"> Call to Action</a>
+</div>
+<br>
+<div id="Closing-Argument 2">
+    
+</div>
+<div style="display: flex;justify-content: center;gap: 10px; background-color: #a52a2a;">
+    <img id="Logo-2" src="Gambar/Logo Travel.png" alt="Ini Logo" style="width: 30px; display: flex;">
+    <p id="Closing" style="text-align: center">Terms of service</p>
+    <p id="Closing" style="text-align: center">Privacy Policy</p>
+</div>
+<div style="display: flex;justify-content: center;gap: 13px; background-color: #a52a2a;">
+        <p id="Closing" style="text-align: center">2019</p>
+        <p id="Closing" style="text-align: center">Borcelle</p>
+</div>
+</footer>     
+</body>
+</html>
